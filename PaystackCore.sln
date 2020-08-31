@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaystackCore", "PaystackCore\PaystackCore.csproj", "{FEF397B9-FC19-4E3F-8012-BC5BB9D222CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaystackCore.Web", "PaystackCore.Web\PaystackCore.Web.csproj", "{ADD54B85-4113-4AF4-AC87-8D25A69B3492}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FEF397B9-FC19-4E3F-8012-BC5BB9D222CE} = {FEF397B9-FC19-4E3F-8012-BC5BB9D222CE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF397B9-FC19-4E3F-8012-BC5BB9D222CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF397B9-FC19-4E3F-8012-BC5BB9D222CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF397B9-FC19-4E3F-8012-BC5BB9D222CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF397B9-FC19-4E3F-8012-BC5BB9D222CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD54B85-4113-4AF4-AC87-8D25A69B3492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD54B85-4113-4AF4-AC87-8D25A69B3492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD54B85-4113-4AF4-AC87-8D25A69B3492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD54B85-4113-4AF4-AC87-8D25A69B3492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4355DC75-CFBF-4F43-A974-280A00A8210B}
+	EndGlobalSection
+EndGlobal
